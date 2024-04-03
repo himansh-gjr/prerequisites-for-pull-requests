@@ -10,7 +10,7 @@
 8. Be consistent in your implementations
 9. Follow our style guidelines
     * use `rem` ( border radius are exception )
-    * typoghraphy ( aviod give font styles, just use relavent classes )
+    * typoghraphy ( aviod giving font styles, just use relavent classes )
     * color libs
     * use [BEM](https://getbem.com/naming/)
 10. Declare constant variable in `constant` file, simple rule is when using same data in different place put that into `constant` file so that when we change the data we only required to update that in one place.
