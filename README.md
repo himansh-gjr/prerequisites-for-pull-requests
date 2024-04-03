@@ -21,3 +21,4 @@
     * create new branch and work on that branch
 13. Avoid using `any` in typescript
 14. Before rasing the PR always make build using `yarn run build` or check with the repo maintainer for the `build` cmd.
+15. If a project uses `yarn`, it must only contain `yarn.lock`; if a project uses `npm`, it must only contain `package-lock.json`. Both files can't exists in a project at the same time. 
